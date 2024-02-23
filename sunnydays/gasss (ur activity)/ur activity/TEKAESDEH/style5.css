@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*:hover {
+    cursor: url(../img/cursor.png), auto;
+}
+
+body {
+    background-color: #E7FAFF;
+}
+
+.berhitung {
+    background-image: url(../img/number/isi-berhitung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+
+.head-berhitung a img:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.berhitung .head-berhitung a img {
+    width: 6%;
+    height: 6%;
+    margin: 40px 0 0 40px;
+}
+ 
+.berhitung .right-arrow a img {
+    width: 5%;
+    height: 5%;
+    float: right;
+    margin-top: 230px;
+   
+}
+
+.berhitung .right-arrow a img:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}

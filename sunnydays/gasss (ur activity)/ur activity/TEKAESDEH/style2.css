@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*:hover {
+    cursor: url(../img/cursor.png), auto;
+}
+
+body {
+    background-color: #E7FAFF;
+}
+
+
+.number {
+    background-image: url(../img/number/awan-atas.png);
+    height: 574px;
+}
+
+.head-number {
+    display: flex;
+   
+}
+
+.head-number a img {
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 75px;
+}
+
+.head-number a img:hover {
+    scale: 1.1;
+    transition: 0.3s linear;
+}
+
+.head-number h1 {
+    font-family: "Poppins" , sans-serif;
+    margin-left: 45px;
+    margin-top: 75px;
+    font-size: 69px;
+}
+
+.body-number a img {
+    margin: 70px 70px;
+    justify-content: center;
+    width: 252px;
+    height: 285px;
+    margin-left: 110px;
+}
+
+.body-number a img:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+/* Media Query */
+@media only screen and (max-width: 760px) {
+    .number {
+        background-repeat: no-repeat;
+        height: auto;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .number .head-number a img {
+        margin: 0;
+        transform: scale(60%);
+    }
+
+    .number .head-number h1 {
+        font-size: 28px;
+        margin: 0;
+        margin-top: 27px;
+    }
+
+    .number .body-number {
+        margin: 0;
+    }
+
+    .number .body-number a img {
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 25px;
+        left: -50%;
+        transform: translateX(50%);
+    }
+}

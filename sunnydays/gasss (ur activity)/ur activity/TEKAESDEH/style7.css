@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*:hover {
+    cursor: url(../img/cursor.png), auto;
+}
+
+body {
+    background-color: #E7FAFF;
+}
+
+.head-shape a img {
+    position: absolute;
+    margin: 40px 0 0 40px;
+}
+
+.shape .isi-shape img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    overflow: hidden;
+}
+

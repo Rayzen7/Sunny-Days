@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*:hover {
+    cursor: url(../img/cursor.png), auto;
+}
+
+body {
+    background-color: #E7FAFF;
+}
+
+.alphabet {
+    font-family: "Poppins" , sans-serif;
+    background-image: url(../img/alphabet/awan-atas.png);
+    height: 574px;
+}
+
+.head-alphabet {
+    display: flex;
+}
+
+.head-alphabet h1 {
+   font-size: 69px;
+   margin-left: 35px;
+    margin-top: 71px;
+
+}
+
+.head-alphabet a img {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 75px;
+}
+
+
+.body-alphabet img {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    width: 1110px;
+    height: 450px;
+    margin-left: 115px;
+}
+
+/* Media query */
+@media only screen and (max-width: 760px) {
+    .alphabet {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .alphabet .head-alphabet a img {
+        transform: scale(50%);
+        margin: 0;
+    }
+
+    .alphabet .head-alphabet h1 {
+        font-size: 26px;
+        margin: 0;
+        margin-top: 28px;
+    }
+
+    .alphabet .body-alphabet img {
+        transform: scale(90%) translateY(40%);
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+*:hover {
+    cursor: url(../img/cursor.png), auto;
+}
+
+body {
+    background-color: #E7FAFF;
+}
+.penjumlahan {
+    background-image: url(../img/number/awan-atas.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.head-penjumlahan {
+    display: flex;
+}
+
+.head-penjumlahan a img {
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 55px;
+}
+
+.head-penjumlahan a img:hover {
+    scale: 1.1;
+    transition: 0.3s linear;
+}
+
+
+.atas-head-penjumlahan img {
+    width: 700px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.bawah-body-penjumlahan img {
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 282px;
+    height: 282px;
+}
+
+.penjumlahan .body-penjumlahan .bawah-body-penjumlahan {
+    display: flex;
+    flex-direction: row;
+}
+
+.penjumlahan .body-penjumlahan .bawah-body-penjumlahan .right-arrow img {
+    width: 25%;
+    height: 25%;
+    transform: translateX(-60%);
+}
