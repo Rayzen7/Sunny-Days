@@ -697,11 +697,15 @@ body {
     }
     
     /* testimoni */
+        .testimoni-head {
+        transform: translateX(-8%);
+    }
+    
     .isi-testimoni {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        transform: translateX(-12%) scale(80%) translateY(-13%);
+        transform: translateX(-15%) scale(80%) translateY(-13%);
         margin-top: 30px;
     }
 
